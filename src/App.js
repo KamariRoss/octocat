@@ -53,7 +53,6 @@ class App extends React.Component {
         <main class="symbol">
           <article>
             <section>
-              <cats />
               #149{' '}
               <a href="https://octodex.github.com/terracottocat/">
                 Terracottocat
