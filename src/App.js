@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
-import cats from 'components/cats.js'
+import { CatsOne } from './components/cats.js'
 import HelloWorld from './components/HelloWorld'
-import artist1 from './imgs/72919.jpeg'
-import octogatos from './imgs/Octogatos.png'
-import artist2 from './imgs/4226949.png'
+
 import adacats from './imgs/Adacats.png'
 import artist3 from './imgs/18125109.jpeg'
 import fintechtocat from './imgs/Fintechtocat.png'
@@ -52,20 +50,8 @@ class App extends React.Component {
         </header>
         <main class="symbol">
           <article>
-            <section>
-              #149{' '}
-              <a href="https://octodex.github.com/terracottocat/">
-                Terracottocat
-              </a>
-              <img class="proimage" src={artist1} alt="artist picture" />
-            </section>
-            <section>
-              <a href="https://octodex.github.com/octogatos/">
-                <img class="icon" src={octogatos} alt="octogatos" />
-              </a>
-              #148 <a href="https://octodex.github.com/octogatos/">Octogatos</a>
-              <img class="proimage" src={artist2} alt="artist picture" />
-            </section>
+            <CatsOne />
+
             <section>
               <a href="https://octodex.github.com/adacats/">
                 <img class="icon" src={adacats} alt="adacats pic" />
